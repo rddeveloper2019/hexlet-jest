@@ -1,0 +1,20 @@
+{
+  "name": "hexlet-jest",
+  "version": "1.0.0",
+  "description": "hexlet js-test course N1",
+  "main": "src/index.js",
+  "type": "module",
+  "scripts": {
+    "test": "node --experimental-vm-modules 'node_modules/.bin/jest'"
+  },
+  "keywords": [
+    "js",
+    "jest",
+    "test"
+  ],
+  "author": "RDzh",
+  "license": "ISC",
+  "devDependencies": {
+    "jest": "^27.2.1"
+  }
+}
