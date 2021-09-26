@@ -1,6 +1,8 @@
+plugins: ["jest"]
 env:
   node: true
   es2021: true
+  jest/globals: true
 extends:
   - airbnb-base
 parserOptions:
@@ -8,5 +10,10 @@ parserOptions:
   sourceType: module
 rules: {
   "import/extensions": "off",
-  "no-console": "off"
+  "no-console": "off",
+  "jest/no-disabled-tests": "warn",
+  "jest/no-focused-tests": "error",
+  "jest/no-identical-title": "error",
+  "jest/prefer-to-have-length": "warn",
+  "jest/valid-expect": "error"
 }
